@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data files — download from GEO
+*.gz
+*.h5ad
+GSE72056/
+
+# OS
+.DS_Store
+Thumbs.db
