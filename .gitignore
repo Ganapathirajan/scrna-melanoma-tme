@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.pyc
@@ -7,6 +8,50 @@ __pycache__/
 *.gz
 *.h5ad
 GSE72056/
+=======
+# Large genomic / single-cell data files — do NOT commit
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.tar.gz
+*.tar
+
+# Raw GEO data
+data/GSE157783_extracted/
+data/*.tsv
+data/*.tsv.gz
+data/*.tar.gz
+
+# Large intermediate outputs
+results/pd_final.h5ad
+results/figures/*.png
+
+# Keep these (small, essential)
+!results/qc/qc_summary.md
+!report/clinical_interpretation.md
+!data/download_gse157783.sh
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.jupyter/
+*.ipynb
+
+# Environment
+.env
+venv/
+env/
+>>>>>>> 12998a76caa180278d3c668331085b6f54591213
 
 # OS
 .DS_Store
