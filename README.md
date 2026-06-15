@@ -378,25 +378,24 @@ MIT License — see [LICENSE](LICENSE)
 ## Limitations & Notes
 
 - Dataset restricted to **substantia nigra / midbrain region** only
-- Parental genotypes are from **post-mortem tissue** — donor-specific batch effects corrected via Harmony
-- Gene identifiers remain as **Ensembl IDs** — direct mapping to gene symbols (SNCA, LRRK2) was limited by dataset format
-- Dopaminergic neuron count (47 nuclei) is extremely low — statistics should be interpreted cautiously
-- This is a **training/portfolio project** — not validated for clinical use
+- Parental genotypes are from **post-mortem tissue** — donor-specific batch effects corrected via Harmony.
+- Gene identifiers remain as **Ensembl IDs** — direct mapping to gene symbols (SNCA, LRRK2) was limited by dataset format.
+- Dopaminergic neuron count (47 nuclei) is extremely low — statistics should be interpreted cautiously.
+- This is a **training/portfolio project** — not validated for clinical use.
 
 ---
 
 ## Skills Demonstrated
 
-- snRNA-seq preprocessing and quality control (Scanpy)
-- Multi-donor batch correction (Harmony)
-- Dimensionality reduction: PCA + UMAP
-- Graph-based clustering: Leiden algorithm
-- Cell type annotation using marker genes
-- Supervised ML classification (Random Forest, 5-fold CV)
-- ROC-AUC evaluation and feature importance analysis
-- Reproducible cloud-based bioinformatics (Google Colab)
+- snRNA-seq preprocessing and quality control (Scanpy).
+- Multi-donor batch correction (Harmony).
+- Dimensionality reduction: PCA + UMAP.
+- Graph-based clustering: Leiden algorithm.
+- Cell type annotation using marker genes.
+- Supervised ML classification (Random Forest, 5-fold CV).
+- ROC-AUC evaluation and feature importance analysis.
+- Reproducible cloud-based bioinformatics (Google Colab).
 
 ---
 
 *Dataset: GSE157783, publicly available via NCBI GEO. Not for clinical use.*
->>>>>>> 12998a76caa180278d3c668331085b6f54591213
