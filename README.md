@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # scRNA-seq Cell Type Classification — Melanoma Tumor Microenvironment
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
