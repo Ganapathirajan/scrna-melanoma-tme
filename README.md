@@ -1,4 +1,4 @@
-# scRNA-seq Cell Type Classification — Melanoma Tumor Microenvironment
+# scRNA-seq Cell Type Classification — Melanoma Tumor Microenvironment.
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scanpy](https://img.shields.io/badge/Scanpy-1.x-brightgreen?style=flat-square)
@@ -395,7 +395,3 @@ MIT License — see [LICENSE](LICENSE)
 - Supervised ML classification (Random Forest, 5-fold CV).
 - ROC-AUC evaluation and feature importance analysis.
 - Reproducible cloud-based bioinformatics (Google Colab).
-
----
-
-*Dataset: GSE157783, publicly available via NCBI GEO. Not for clinical use.*
